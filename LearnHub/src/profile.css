@@ -1,0 +1,237 @@
+.profile-wrapper {
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f8fa;
+  min-height: 100vh;
+}
+
+.profile-dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.profile-left {
+  margin-right: 40px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid #d1d1d1;
+}
+
+.profile-right h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.designation {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.red { background: #e74c3c; }
+.green { background: #2ecc71; }
+.blue { background: #3498db; }
+
+.lecturer-details-box {
+  max-width: 900px;
+  margin: 30px auto 0;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  color: #2c3e50;
+  line-height: 1.8;
+}
+
+.lecturer-details-box p {
+  margin: 10px 0;
+  margin-left: 15px;
+}
+
+.lecturer-details-box strong {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #2980b9;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.btn-group .btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* LinkedIn Button */
+.btn-group .btn.linkedin {
+  background-color: #0077b5;
+}
+.btn-group .btn.linkedin:hover {
+  background-color: #005983;
+  transform: scale(1.05);
+}
+
+/* Twitter Button */
+.btn-group .btn.twitter {
+  background-color: #1da1f2;
+}
+.btn-group .btn.twitter:hover {
+  background-color: #0d8ddc;
+  transform: scale(1.05);
+}
+
+/* Email Button */
+.btn-group .btn.email {
+  background-color: #ff6f00;
+}
+.btn-group .btn.email:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+}
+
+.user-profile-card {
+  background: #fefefe;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+}
+
+.user-info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.completed-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.course-item {
+  background-color: #f5f7fa;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.course-item p {
+  margin: 4px 0;
+}
+
+.btn-download {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.course-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.course-card:hover {
+  transform: scale(1.01);
+}
+
+.btn-continue {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-continue:hover {
+  background-color: #0056b3;
+}
+
+.btn-view {
+  background-color: black;
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 130px; /* Ensures consistent width */
+  text-align: center;
+}
+
+.btn-view:hover {
+  background-color: #333;
+}
+
+.btn-download {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 130px; /* Ensures same width */
+  text-align: center;
+}
+
+.certificate-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+

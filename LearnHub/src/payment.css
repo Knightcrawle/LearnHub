@@ -1,0 +1,59 @@
+.payment-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 420px;
+  margin: 100px auto;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.payment-option {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.payment-option button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.active {
+  color: #667eea;
+  border-bottom: 2px solid #667eea;
+}
+
+.stripe-elements {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button.pay-btn {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button.pay-btn:hover {
+  background: linear-gradient(135deg, #5648b2, #573ba2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
